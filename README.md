@@ -1,4 +1,4 @@
-# Yumify
+# Yumify (Laravel Food Ordering Application)
 
 # HOW TO RUN APP
 1. Make database yumify in your local
@@ -10,12 +10,20 @@
 
 # APP DESCRIPTION
 
-Laravel application for ordering food.
+- This Laravel-based web application is designed to streamline the food ordering process, offering a seamless experience for users from browsing restaurants to placing orders.
 
-Focus on this application is on working with database and Eloquent, with models, controllers and views (blades). Here can be found filtering, sorting and pagination for data on many places in the app.
-
-You can register and login after that, so everything in the app will be saved for you in database.
-
-You can search restaurants, in every restaurant you can search, filter, sort meals. 
-
-When you pick some meals, you can add it to cart and order it, after that, your order will go to order history.
+# Key Features:
+- Database Management with Eloquent (ORM): This application efficiently manages data storage and retrieval, ensuring seamless interaction with the underlying database.
+  
+- MVC Architecture Implementation: Utilizing Models, Views (Blades), and Controllers, the application follows the MVC pattern, enhancing code organization and maintainability.
+  
+- Advanced Data Handling: Incorporates filtering, sorting, and pagination functionalities across various sections of the application.
+  
+- User Authentication and Persistence: Users can register and log in securely, allowing for personalized experiences where their activities and preferences are saved within the database.
+  
+- Restaurant and Meal Management: Enables users to search, filter, and sort restaurants and meals and find their wants.
+  
+- Order Processing and History: Users can add selected meals to their cart and place orders. Order history is maintained, offering users a convenient reference for past transactions.
+  
+# Technologies Used:
+- Laravel, PHP, MySQL, HTML, CSS(SASS), BOOTSTRAP, JavaScript, jQuery.
