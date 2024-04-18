@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  padding: 10px;
+}
+.logo a {
+  text-decoration: none;
+  color: #6970FF;
+}
+.logo a .logo-inside-div {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.logo a .logo-inside-div .logo-text h1 {
+  color: #6970FF;
+  margin: 0;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 600;
+  font-size: 1.7rem;
+}
+.logo a .logo-inside-div .logo-img {
+  width: 20%;
+}
+.logo a .logo-inside-div .logo-img img {
+  width: 100%;
+}
+
+.menu-item .menu-link {
+  border-radius: 0.375rem;
+  font-weight: 600;
+}
+
+.layout-page .index-admin-page {
+  margin: 0px auto;
+  width: 90%;
+  padding-top: 50px;
+}
+.layout-page .index-admin-page h1 {
+  color: #6970FF;
+}
+.layout-page .index-admin-page h3 {
+  color: #5F61E6;
+}
+.layout-page .index-admin-page .create-new-btn {
+  margin: 20px 0px;
+}
+.layout-page .index-admin-page .create-new-btn a {
+  padding: 0.5rem 1.25rem;
+  background-color: #6970FF;
+  box-shadow: 0 2px 4px 0 rgba(105, 108, 255, 0.4);
+  border-radius: 0.375rem;
+  color: #fff;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+.layout-page .index-admin-page .create-new-btn a:hover {
+  background-color: #5F61E6;
+  box-shadow: 0 2px 4px 0 rgba(24, 24, 24, 0.4);
+}
+.layout-page .index-admin-page .delete-btn {
+  color: #fff;
+}
+.layout-page .index-admin-page td img {
+  width: 100px;
+}
+
+.notification-admin-error {
+  width: 350px;
+  position: fixed;
+  z-index: 999;
+  right: 50px;
+  bottom: 60px;
+}
+
+.notification-admin-success-delete {
+  width: 350px;
+  position: fixed;
+  z-index: 999;
+  right: 50px;
+  bottom: 60px;
+}
+
+.notification {
+  width: 350px;
+  position: fixed;
+  z-index: 999;
+  right: 50px;
+  bottom: 60px;
+}
+
+.meal-edit-img {
+  margin-top: 10px;
+  width: 150px;
+}
+
+.restaurant-edit-img {
+  margin-top: 10px;
+  width: 150px;
+}
+
+.btn-admin-logout {
+  width: 87.5%;
+}
+
+.dashboard-report {
+  height: 650px;
+  overflow-y: auto;
+}
+
+/*# sourceMappingURL=style_admin.css.map */
